@@ -1,0 +1,39 @@
+Information:
+	This script checks the status of a port on a host. Returns either A: Accepted, B: Refused,
+	C: Failed, or D: Timeout.
+
+Changes log for PortCheck.tcl:
+	Version 1.5
+	* Released to the public from the |DAWG| Scripting Team website.
+	* Converted all the sockets to use async sockets, as not to halt the bot while checking a port.
+	* Removed on-join scanning for now.
+
+	Version 1.6
+	* Released to the public from the |DAWG| Scripting Team website.
+	* Fixed a few bugs that appear when you enter the syntax incorrectly.
+	* You can now specify different commands for pub and dcc scanning.
+	* Fixed a flag error causing flags set as +<flag> to be bound as +<flag>|+<flag>.
+	* Made the socket close immediately on read if portcheck_read is disabled.
+	* Added version checking so the script will not attempt to run on anything but eggdrop 1.6.x.
+
+	Version 1.7
+	* Released to the public from the |DAWG| Scripting Team website.
+	* Renamed all putidx commands to putdcc for forward-compatibility reasons.
+
+	Version 1.8
+	* Released to the public from the |DAWG| Scripting Team website.
+	* Minor documentation updates.
+	* Put all configuration settings into an array to save code.
+	* Fixed a bug in the dcc invalid usage output.
+
+	Version 1.9
+	* Released to the public from the |DAWG| Scripting Team website.
+	* Minor documentation updates.
+	* Re-Added on-join scanning. 
+	* Fixed some socket read bugs.
+
+	Version 2.0
+	* Released to the public from the |DAWG| Scripting Team website.
+	* Completely removed bold and the PORTCHECK: prefix in all messages to channels.
+	* Added the option to disable the PORTCHECK: and use of bold in DCC chat.
+	* Fixed a bug where sockets with refused connections were marked as failed.
