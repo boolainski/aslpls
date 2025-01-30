@@ -4,7 +4,14 @@ Basic TCL Scripts
 
 Copy the files to your eggdrop/secripts
 
-add tcl script to your eggdrop.conf
+add tcl scripts to your eggdrop.conf
 
 
-source scripts/
+source scripts/NickServ.tcl
+source scripts/autotalk.tcl
+source scripts/icecast.tcl
+source scripts/registerednick.tcl
+source scripts/rsh-Xlogin.tcl
+
+
+
