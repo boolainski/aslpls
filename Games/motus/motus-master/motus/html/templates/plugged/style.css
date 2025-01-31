@@ -1,0 +1,515 @@
+/* motus/style.css v3.358 */
+
+html,body
+{
+	text-align:center;
+	margin:0;
+	padding:0;
+	font: 0.9em "Trebuchet MS", helvetica, sans-serif;
+	color:#C8C8C8;
+	background-color:#444;
+	line-height: 1.4;
+}
+
+	a
+	{
+		color:#FFD700;
+		text-decoration:none;
+	}
+
+	a:hover
+	{
+		text-decoration:underline;
+	}
+
+	#content
+	{
+		width:1000px;
+		margin:0 auto;
+	}
+
+
+		#header
+		{
+			padding:0;
+			margin:0;
+			width:100%;
+		}
+    
+			#ombreh1
+			{
+				margin-top:44px;
+				margin-left:303px;
+				margin-right:297px;
+				background-color:#383838;
+				height:35px;
+			}
+
+			h1 
+			{
+				margin-top:-38px;
+				margin-left:300px;
+				margin-right:300px;
+				font-size:2.0em;
+				text-align:center;
+				background-color:#585768;
+				color:#FFB35F;
+				height:35px;
+			}
+
+
+
+			#informations
+			{
+				margin-left:5%;
+				margin-right:5%;
+				margin-top:30px;
+				margin-bottom:20px;
+			}
+
+				#infosalon
+				{
+					text-align:center;
+					min-height:30px;
+				}
+
+				#infotime
+				{
+					margin-top:5px;
+					text-align:center;
+				}
+
+				#infodb
+				{
+					margin-top:50px;
+					margin-left:20px;
+				}
+
+		#partie1
+		{
+			width:1000px;
+			min-height:350px;
+		}        
+
+			#semainencours
+			{
+				margin:auto;
+				width:425px;
+				float:left;
+				text-align:center;
+			}
+
+                #h21
+                {
+                    text-align:center;
+                    margin-bottom:10px;
+                }
+                
+					.ombreh2
+					{
+						margin:25px 72px 0 78px;
+						background-color:#383838;
+						height:27px;
+					}
+					
+					h2
+					{
+						margin:-30px 75px 0 75px;
+						padding:0;
+						text-align:center;
+						font-size:1.5em;
+						background-color:#585768;
+						color:#FFB35F;
+						height:27px;
+					}
+
+				h3
+				{
+					margin-top:-6px;
+					margin-bottom:0px;
+					padding:0;
+					font-style:italic;
+					font-size:0.8em;
+				}
+			
+				#ombresec
+				{
+					margin:5px 12px 5px 18px;
+					background-color:#383838;
+					height:220px;				
+					min-height:220px;
+				}
+			
+				#scoresencours
+				{
+					margin:-228px 15px 5px 15px;
+					background-color:#585768;
+					color:#C8C8C8;
+					height:220px;
+					min-height:220px;
+				}
+
+					#listescores,#listerecords
+					{
+						list-style-type: none;
+						margin:0;
+						padding-top:10px;
+						padding-bottom:10px;
+						width:100%;
+						text-align:left;
+					}
+
+			#recordujeu
+			{
+				width:570px;
+				float:right;
+			}
+
+				#h22
+				{
+					margin:0 75px 30px 75px;
+				}
+				
+				#ombrerec
+				{
+					margin:-6px 12px 5px 18px;
+					background-color:#383838;
+					min-height:236px;
+					height:236px				
+				}
+				
+				#records
+				{
+					margin:-244px 15px 5px 15px;
+					background-color:#585768;
+					color:#C8C8C8;
+					min-height:236px;
+					height:236px;
+				}
+
+		#stats
+		{
+			margin:auto;
+			margin-top:20px;
+			width: 800px;
+			height: 405px;
+			text-align:center;
+			
+		}
+
+			#h23
+			{
+				margin:auto;
+				text-align:center;
+				width:400px;
+				height:60px;
+				border:solid #444 2px;
+			}
+
+			#ombred
+			{
+				margin-left:103px;
+				margin-right:94px;
+				margin-top:13px;
+				background-color:#383838;
+				width: 600px;
+				height: 292px;
+				border:solid #383838 1px;
+			}
+			
+	
+			#diag
+			{	
+				margin-left:100px;
+				margin-right:100px;
+				margin-top:-297px;
+				background-color:#FFCF76;
+				width: 600px;
+				height: 292px;
+				border:solid orange 1px;
+				text-align:left;
+			}
+
+				#barres
+				{
+					position:absolute;
+					margin: auto;
+					margin-top:35px;
+					padding-right:5px;
+					width:530px;
+					height:200px;
+					margin-left:33px;
+				}
+
+					.bar
+					{
+						margin:0;
+						padding:0;
+						width:10px;
+						float:right;
+						height:200px;
+					}
+
+						.bari
+						{
+							position:absolute;
+							width:4px;
+							background-color:black;
+							bottom:0;
+							overflow:hidden;
+							font-size:0;
+							line-height:0;
+							margin-left:3px;
+						}
+
+				#semaines
+				{
+					position:absolute;
+					width:530px;
+					height:20px;
+					color:black;
+					margin-left:34px;
+					margin-top:235px;
+					
+				}
+
+					.sem
+					{
+						margin:0;
+						width:8px;
+						margin-right:2px;
+						text-align:center;
+						height:20px;
+						float:right;
+						font-size:8px;
+						cursor:default;
+					}
+
+					.sem2
+					{
+						margin:0;
+						width:8px;
+						margin-right:2px;
+						padding-top:3px;
+						text-align:center;
+						height:20px;
+						float:right;
+						font-size:8px;
+						cursor:default;
+					}
+
+					#legende
+					{
+						position:relative;
+						float: right;
+						margin-right:4px;
+						margin-top:-5px;
+						height:25px;
+						width:125px;
+						border-right:solid black 1px;
+						border-bottom:solid black 1px;
+					}					
+
+						#legtxt
+						{
+							margin-top:12px;
+							color:black;
+							font-size:10px;
+							font-family: tahoma;
+						}
+
+        #archives
+        {
+            clear:both;
+            padding:0;
+            margin-top:10px;
+            width:1000px;
+            text-align:left;
+        }
+
+			.ombreh4
+			{
+				margin-left:253px;
+				margin-right:247px;
+			}
+
+			.h4
+			{
+				margin-left:250px;
+				margin-right:250px;
+			}
+
+			#arch
+			{
+				margin-top:25px;
+				margin-left:83px;
+				margin-right:77px;
+				width:1000px;
+			}
+
+				#ombrearch
+				{
+					padding:0px;
+					width:840px;
+					background-color:#383838;
+					float:left;
+				}
+	
+					#archivage
+					{
+						position:relative;
+						background-color:#585768;
+						bottom:3px;
+						right:3px;
+						padding:5px 10px 5px 10px;
+						color:white;
+					}
+
+		#footer
+		{
+			
+			clear:both;
+			padding:0;
+			width:1000px;
+			color:white;
+			font-size:0.8em;
+			
+		}
+
+			#lif1
+			{
+
+				margin:0;
+				margin-top:50px;
+				padding-top:3px;
+				width:500px;
+				float:left;
+				text-align:center;
+				background-color:#777;
+				border-top:solid black 1px;
+			}
+
+			#lif2
+			{
+				margin:0;
+				padding-top:3px;
+				margin-top:50px;
+				width:500px;
+				float:left;
+				text-align:center;
+				background-color:#777;
+				border-top:solid black 1px;
+			}
+
+			#lif3
+			{
+				clear:both;
+				padding-top:5px;
+				padding-bottom:10px;
+				width:100%;
+				text-align:center;
+				background-color:#777;			
+			}
+
+.variable
+{
+	font-weight:bold;
+	color:white;
+	background-color:#585768;
+}
+
+.variablef
+{
+	font-weight:bold;
+	color:white;
+	background-color:#444;
+}
+
+.enum 
+{
+	color:#BEBEBE;
+	background-color:#585768;
+}
+
+.li
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.enumi
+{
+	color:#BEBEBE;
+	background-color:#585768;
+}
+
+.tounderline
+{
+	text-decoration:underline;
+}
+
+.nick
+{
+	width:75%;
+	float:left;
+	text-align:left;
+	padding:0;
+	margin:0;
+	min-height:20px;
+}
+
+.nicko
+{
+	width:75%;
+	float:left;
+	text-align:left;
+	padding:0;
+	min-height:20px;
+}
+
+.score
+{
+	width:23%;
+	float:right;
+	text-align:right;
+	padding:0;
+	margin:0;
+}
+
+
+.divm
+{
+	clear:both;
+	padding:0;
+	margin-left:5%;
+	margin-right:0;
+	width:90%;
+    
+}
+
+.divn
+{
+	clear:both;
+	padding:0;
+	margin-left:10%;
+	margin-right:10%;
+	width:65%;
+}
+
+.divo
+{
+	clear:both;
+	padding:0;
+	margin-left:3%;
+	margin-right:7px;
+	width:92%;
+}
+
+.divp
+{
+	clear:both;
+	padding:0;
+	padding-left:5%;
+	margin-right:5%;
+	width:90%;
+}

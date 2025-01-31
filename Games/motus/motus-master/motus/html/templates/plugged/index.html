@@ -1,0 +1,118 @@
+<html>
+<head>
+	<meta http-equiv="content-type" />
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Language" content="fr" />
+	<meta name="author" content="CrazyCat" />
+	<meta name="description" content="Statistiques du jeu Motus sur IRC" />
+	<meta name="distribution" content="3.358" />
+	<title>Statistiques du Motus</title>
+	<link rel="stylesheet" href="%CSS_FILENAME%" type="text/css" />
+</head>
+<body>
+	<div id="content">
+		<div id="header">
+			<div id="ombreh1"></div>
+			<h1>STATISTIQUES DU MOTUS</h1>
+			<div id="informations">
+				<div id="infosalon">
+					<div id="listeinfos">
+						<span class="li">Serveur : <span class="variablef">%SERVER%</span></span> 
+						<span class="li">Salon : <span class="variablef">%CHAN%</span></span>
+						<span class="li">Nom du Bot : <span class="variablef">%BOT%</span></span>
+					</div>
+					<div id="infotime">DerniÃšre mise Ã  jour des statistiques : <span class="variablef">%UPDATE.DATE%</span> <span class="variablef">%UPDATE.TIME%</span></div>
+				</div>
+				<div id="infodb">Le jeu est actuellement paramÃ©trÃ© pour proposer des mots entre <span class="variablef">%MIN.WORD.LENGTH%</span> et <span class="variablef">%MAX.WORD.LENGTH%</span> lettres, pour un total de <span class="variablef">%TOTAL.WORDS%</span> mots.<br />Les propositions sont validÃ©es Ã  l'aide de l'Officiel Du Scrabble v6 (ODS6) qui comporte <span class="variablef">%TOTAL.ODS%</span> mots.</div>
+			</div>
+		</div>
+		<div id="partie1">
+			<div id="semainencours">
+				<div id="h21">
+					<div class="ombreh2"></div>
+					<h2>Top10 des scores</h2>
+				</div>
+				<h3>La derniÃšre remise Ã  zÃ©ro a eu lieu le <span class="variablef">%LAST.SCORES.RESET.DATE%</span> <span class="variablef">%LAST.SCORES.RESET.TIME%</span>.</h3>
+				<div id="ombresec"></div>
+				<div id="scoresencours">
+					<div id="listescores">
+						<div class="divm"><div class="nick"><span class="enum">1-</span> <span class="variable">%NICK1%</span></div><div class="score"><span class="variable">%SCORE1%</span> pts</div></div>
+						<div class="divm"><div class="nick"><span class="enum">2-</span> <span class="variable">%NICK2%</span></div><div class="score"><span class="variable">%SCORE2%</span> pts</div></div>
+						<div class="divm"><div class="nick"><span class="enum">3-</span> <span class="variable">%NICK3%</span></div><div class="score"><span class="variable">%SCORE3%</span> pts</div></div>
+						<div class="divm"><div class="nick"><span class="enum">4-</span> <span class="variable">%NICK4%</span></div><div class="score"><span class="variable">%SCORE4%</span> pts</div></div>
+						<div class="divm"><div class="nick"><span class="enum">5-</span> <span class="variable">%NICK5%</span></div><div class="score"><span class="variable">%SCORE5%</span> pts</div></div>
+						<div class="divm"><div class="nick"><span class="enum">6-</span> <span class="variable">%NICK6%</span></div><div class="score"><span class="variable">%SCORE6%</span> pts</div></div>
+						<div class="divm"><div class="nick"><span class="enum">7-</span> <span class="variable">%NICK7%</span></div><div class="score"><span class="variable">%SCORE7%</span> pts</div></div>
+						<div class="divm"><div class="nick"><span class="enum">8-</span> <span class="variable">%NICK8%</span></div><div class="score"><span class="variable">%SCORE8%</span> pts</div></div>
+						<div class="divm"><div class="nick"><span class="enum">9-</span> <span class="variable">%NICK9%</span></div><div class="score"><span class="variable">%SCORE9%</span> pts</div></div>
+						<div class="divo"><div class="nicko"><span class="enumi">10-</span> <span class="variable">%NICK10%</span></div><div class="score"><span class="variable">%SCORE10%</span> pts</div></div>
+					</div>
+				</div>
+			</div>
+			<div id="recordujeu">
+				<div id="h22">
+					<div class="ombreh2"></div>
+					<h2>Statistiques</h2>
+				</div>
+				<div id="ombrerec"></div>
+				<div id="records">
+					<div id="listerecords">
+						<div class="divp">&bull; Date de mise en service du Motus : <span class="variable">%REFERENCE.TIME.DATE%</span> <span class="variable">%REFERENCE.TIME.TIME%</span></div>
+						<div class="divp">&bull; Nombre total de rounds jouÃ©s : <span class="variable">%TOTAL.ROUNDS%</span></div>
+						<div class="divp">&bull; Champion de la semaine : <span class="variable">%WEEK.CHAMP.NAME%</span> - <span class="variable">%WEEK.CHAMP.SCORE%</span> pts</div>
+						<div class="divp">&bull; Champion de la semaine derniÃšre : <span class="variable">%LAST.WEEK.CHAMP.NAME%</span> - <span class="variable">%LAST.WEEK.CHAMP.SCORE%</span> pts</div>
+						<div class="divp">&bull; Top 3 des meilleurs champions de tous les temps :</div>
+						<div class="divn"><div class="nick"><span class="enum">1-</span> <span class="variable">%ALL.TIME.TOP3.1.NAME%</span></div><div class="score"><span class="variable">%ALL.TIME.TOP3.1.SCORE%</span> pts</div></div>
+						<div class="divn"><div class="nick"><span class="enum">2-</span> <span class="variable">%ALL.TIME.TOP3.2.NAME%</span></div><div class="score"><span class="variable">%ALL.TIME.TOP3.2.SCORE%</span> pts</div></div>
+						<div class="divn"><div class="nick"><span class="enum">3-</span> <span class="variable">%ALL.TIME.TOP3.3.NAME%</span></div><div class="score"><span class="variable">%ALL.TIME.TOP3.3.SCORE%</span> pts</div></div>
+						<div class="divp">&bull; Joueur dÃ©tenant le plus de titres de champion : <span class="variable">%MOST.CHAMP.NAME%</span> - <span class="variable">%MOST.CHAMP.SCORE%</span> victoires.</div>
+						<div class="divp">&bull; Joueur ayant remportÃ© le plus de rounds : <span class="variable">%BEST.FINDER.NAME%</span> - <span class="variable">%BEST.FINDER.SCORE%</span> mots trouvÃ©s.</div>
+						<div class="divp">&bull; Joueur le plus rapide : <span class="variable">%FASTEST.PLAY.NAME%</span> - <span class="variable">%FASTEST.PLAY.SCORE%</span> secondes</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="stats">
+			<div id="h23">
+				<div class="ombreh2"></div>
+				<h2>ActivitÃ© du motus</h2>
+			</div>
+			<div id="ombred"></div>
+			<div id="diag">
+				<canvas id="particip" style="max-width:650px"></canvas>
+			</div>
+		</div>   
+		<div id="archives">
+			<div class="ombreh2 ombreh4"></div>
+			<h2 class="h4">Archives des scores</h2>
+			<div id="arch">
+				<div id="ombrearch">
+					<div id="archivage">
+						%SCORES.ARCHIVE%
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="lif1">%FOOTER1%</div>
+			<div id="lif2">%FOOTER2%</div>
+			<div id="lif3">Motus v%VERSION% (&copy;2005-2020 Menz Agitat)</div>
+		</div>
+	</div>
+	<script src="./chart.min.js"></script>
+	<script>
+	var ctx = document.getElementById("particip").getContext('2d');
+	var myChart = new Chart(ctx, {
+	type:"bar",
+	data:{
+		labels:["sem. -51","sem. -50","sem. -49","sem. -48","sem. -47","sem. -46", "sem. -45","sem. -44","sem. -43","sem. -42","sem. -41","sem. -40","sem. -39","sem. -38","sem. -37","sem. -36","sem. -35","sem. -34","sem. -33","sem. -32","sem. -31","sem. -30","sem. -29","sem. -28","sem. -27","sem. -26","sem. -25","sem. -24","sem. -23","sem. -22","sem. -21","sem. -20","sem. -19","sem. -18","sem. -17","sem. -16","sem. -15","sem. -14","sem. -13","sem. -12","sem. -11","sem. -10","sem. -9","sem. -8","sem. -7","sem. -6","sem. -5","sem. -4","sem. -3","sem. -2","sem. -1","sem. -0"],
+		datasets:[{
+			label: 'points',
+			backgroundColor:"#1995dc",
+			data:[%GRAPHVALUE51%,%GRAPHVALUE50%,%GRAPHVALUE49%,%GRAPHVALUE48%,%GRAPHVALUE47%,%GRAPHVALUE46%, %GRAPHVALUE45%,%GRAPHVALUE44%,%GRAPHVALUE43%,%GRAPHVALUE42%,%GRAPHVALUE41%,%GRAPHVALUE40%,%GRAPHVALUE39%,%GRAPHVALUE38%,%GRAPHVALUE37%,%GRAPHVALUE36%,%GRAPHVALUE35%,%GRAPHVALUE34%,%GRAPHVALUE33%,%GRAPHVALUE32%,%GRAPHVALUE31%,%GRAPHVALUE30%,%GRAPHVALUE29%,%GRAPHVALUE28%,%GRAPHVALUE27%,%GRAPHVALUE26%,%GRAPHVALUE25%,%GRAPHVALUE24%,%GRAPHVALUE23%,%GRAPHVALUE22%,%GRAPHVALUE21%,%GRAPHVALUE20%,%GRAPHVALUE19%,%GRAPHVALUE18%,%GRAPHVALUE17%,%GRAPHVALUE16%,%GRAPHVALUE15%,%GRAPHVALUE14%,%GRAPHVALUE13%,%GRAPHVALUE12%,%GRAPHVALUE11%,%GRAPHVALUE10%,%GRAPHVALUE9%,%GRAPHVALUE8%,%GRAPHVALUE7%,%GRAPHVALUE6%,%GRAPHVALUE5%,%GRAPHVALUE4%,%GRAPHVALUE3%,%GRAPHVALUE2%,%GRAPHVALUE1%,%GRAPHVALUE0%]
+		}]
+	}
+	});
+	</script>
+</body>
+</html>

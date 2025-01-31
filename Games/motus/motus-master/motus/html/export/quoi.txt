@@ -1,0 +1,2 @@
+Ce répertoire est destiné à accueillir les fichiers html générés par le Motus pour
+la publication web des statistiques et des scores.
