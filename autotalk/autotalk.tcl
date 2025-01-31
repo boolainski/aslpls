@@ -154,7 +154,7 @@ set speaks_msg {
   {"Buti pa supervisor hinahanap, ako hindi ang sakit."}
   {"Minsan ka lang nga maakabayan pero holdap pa!."}
   {"-I've never been loved like this before.."}
-  {"Kung may gusto kang mahalin, wag ka nalang mag-isip. Iyan lang ang masasabi ko. [*=-"}
+  {"Kung may gusto kang mahalin, wag ka nalang mag-isip. Iyan lang ang masasabi ko."}
   {"-Pero paano mo ba mapapigilan ang pagtitiwala sa sarili mong kalamangan?"}
   {"I know you want someone to love you. But what about loving yourself first?..."}
   {"No matter how much pain is inflicted, I will always have hope...."}
