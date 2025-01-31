@@ -1,3 +1,0 @@
-# BarTender
-
-Little Jokes like
