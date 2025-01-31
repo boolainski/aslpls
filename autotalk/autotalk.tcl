@@ -102,7 +102,7 @@ set speaks_msg {
   {"-Nabubuhay tayo, hindi para bumitaw at bumigay, kundi para lumaban at matuto."}
   {"Sana yung pagmamahal mo parang hugasin rin sa bahay, hindi nauubos."}
   {"May taong binigay ng Diyos para lang makilala mo at hindi para makasama mo.."}
-  {Sa pag-ibig walang bulag, walang pipi, walang bingi, pero tanga madami.:>>>."}
+  {"Sa pag-ibig walang bulag, walang pipi, walang bingi, pero tanga madami.:>>>."}
   {"Importante naman talaga ang pinagsamahan, pero mas mahalaga ang pagsasabi ng katotohanan.."}
   {"If Plan A fails, remember there are 25 more letters. :=)))"}
   {"- Life is about balance. Be kind, but don't let people abuse you. Trust, but don't be deceived. Be content, but never stop improving yourself.:)"}
