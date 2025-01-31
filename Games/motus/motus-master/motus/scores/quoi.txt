@@ -1,2 +1,0 @@
-Ce répertoire est destiné à accueillir les fichiers contenant les scores que
-le Motus va créer.
