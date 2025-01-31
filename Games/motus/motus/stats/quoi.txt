@@ -1,0 +1,2 @@
+Ce répertoire est destiné à accueillir les fichiers de statistiques que le Motus
+va créer.

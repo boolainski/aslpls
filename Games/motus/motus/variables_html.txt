@@ -1,0 +1,85 @@
+ ##############################################################################
+#
+# Liste et explication des variables acceptées dans les templates HTML
+# (pour l'exportation des stats)
+# v3.358
+#
+ ##############################################################################
+
+%CSS_FILENAME%						Nom du fichier CSS généré (doit correspondre à
+													l'option css_filename dans la configuration du script)
+%SERVER%									nom du serveur sur lequel Motus fonctionne
+%CHAN%										nom du canal sur lequel Motus fonctionne
+%BOT%											nom du bot qui fait fonctionner Motus
+%UPDATE.DATE%							date de la dernière mise à jour de la page de statistiques
+%UPDATE.TIME%							heure de la dernière mise à jour de la page de statistiques
+%MIN.WORD.LENGTH%					longueur minimale des mots pour laquelle le jeu est actuellement paramétré
+%MAX.WORD.LENGTH%					longueur maximale des mots pour laquelle le jeu est actuellement paramétré
+%TOTAL.WORDS%							nombre de mots dans la liste de mots (uniquement ceux compris entre %MIN.WORD.LENGTH% et %MAX.WORD.LENGTH%)
+%TOTAL.ODS%								nombre de mots dans le dictionnaire de vérification des mots (ODS6)
+%LAST.SCORES.RESET.DATE%	date de la dernière remise à zéro des scores
+%LAST.SCORES.RESET.TIME%	heure de la dernière remise à zéro des scores
+%NICK1%										nom du joueur positionné à la 1ère place du top10 des scores de la semaine
+%NICK2%										nom du joueur positionné à la 2ème place du top10 des scores de la semaine
+%NICK3%										nom du joueur positionné à la 3ème place du top10 des scores de la semaine
+%NICK4%										nom du joueur positionné à la 4ème place du top10 des scores de la semaine
+%NICK5%										nom du joueur positionné à la 5ème place du top10 des scores de la semaine
+%NICK6%										nom du joueur positionné à la 6ème place du top10 des scores de la semaine
+%NICK7%										nom du joueur positionné à la 7ème place du top10 des scores de la semaine
+%NICK8%										nom du joueur positionné à la 8ème place du top10 des scores de la semaine
+%NICK9%										nom du joueur positionné à la 9ème place du top10 des scores de la semaine
+%NICK10%									nom du joueur positionné à la 10ème place du top10 des scores de la semaine
+%SCORE1%									score du joueur positionné à la 1ère place du top10 des scores de la semaine
+%SCORE2%									score du joueur positionné à la 2ème place du top10 des scores de la semaine
+%SCORE3%									score du joueur positionné à la 3ème place du top10 des scores de la semaine
+%SCORE4%									score du joueur positionné à la 4ème place du top10 des scores de la semaine
+%SCORE5%									score du joueur positionné à la 5ème place du top10 des scores de la semaine
+%SCORE6%									score du joueur positionné à la 6ème place du top10 des scores de la semaine
+%SCORE7%									score du joueur positionné à la 7ème place du top10 des scores de la semaine
+%SCORE8%									score du joueur positionné à la 8ème place du top10 des scores de la semaine
+%SCORE9%									score du joueur positionné à la 9ème place du top10 des scores de la semaine
+%SCORE10%									score du joueur positionné à la 10ème place du top10 des scores de la semaine
+%REFERENCE.TIME.DATE%			date depuis laquelle les statistiques sont comptées
+%REFERENCE.TIME.TIME%			heure depuis laquelle les statistiques sont comptées
+%TOTAL.ROUNDS%						nombre total de rounds joués
+%WEEK.CHAMP.NAME%					nom du champion de la semaine en cours
+%WEEK.CHAMP.SCORE%				score du champion de la semaine en cours
+%LAST.WEEK.CHAMP.NAME%		nom du champion de la semaine dernière
+%LAST.WEEK.CHAMP.SCORE%		score du champion de la semaine dernière
+%ALL.TIME.TOP3.1.NAME%		nom du joueur détenant la 1ère place dans le classement du top3 des meilleurs champions
+%ALL.TIME.TOP3.2.NAME%		nom du joueur détenant la 2ème place dans le classement du top3 des meilleurs champions
+%ALL.TIME.TOP3.3.NAME%		nom du joueur détenant la 3ème place dans le classement du top3 des meilleurs champions
+%ALL.TIME.TOP3.1.SCORE%		score du joueur détenant la 1ère place dans le classement du top3 des meilleurs champions
+%ALL.TIME.TOP3.2.SCORE%		score du joueur détenant la 2ème place dans le classement du top3 des meilleurs champions
+%ALL.TIME.TOP3.3.SCORE%		score du joueur détenant la 3ème place dans le classement du top3 des meilleurs champions
+%MOST.CHAMP.NAME%					nom du joueur qui a été le plus de fois champion
+%MOST.CHAMP.SCORE%				nombre de championnats gagnés par le joueur qui a été le plus de fois champion
+%BEST.FINDER.NAME%				nom du joueur qui a trouvé le plus de bonnes réponses
+%BEST.FINDER.SCORE%				nombre de rounds gagnés par le joueur qui a trouvé le plus de bonnes réponses
+%FASTEST.PLAY.NAME%				nom du joueur le plus rapide
+%FASTEST.PLAY.SCORE%			temps du joueur le plus rapide
+%GRAPHVALUE0%							activité du Motus pour la semaine en cours (il s'agit du total de points cumulés par tous les joueurs durant la semaine)
+%GRAPHVALUE1%							activité du Motus pour la semaine dernière (il s'agit du total de points cumulés par tous les joueurs durant la semaine)
+%GRAPHVALUE2%							activité du Motus d'il y a 2 semaines (il s'agit du total de points cumulés par tous les joueurs durant la semaine)
+%GRAPHVALUE3%							activité du Motus d'il y a 3 semaines (il s'agit du total de points cumulés par tous les joueurs durant la semaine)
+...												...
+%GRAPHVALUE50%						activité du Motus d'il y a 50 semaines (il s'agit du total de points cumulés par tous les joueurs durant la semaine)
+%GRAPHVALUE51%						activité du Motus d'il y a 51 semaines (il s'agit du total de points cumulés par tous les joueurs durant la semaine)
+%GRAPHPERCENT0%						activité du Motus pour la semaine en cours (exprimée en pourcentage de l'activité maximum sur les 52 dernières semaines)
+%GRAPHPERCENT1%						activité du Motus pour la semaine dernière (exprimée en pourcentage de l'activité maximum sur les 52 dernières semaines)
+%GRAPHPERCENT2%						activité du Motus d'il y a 2 semaines (exprimée en pourcentage de l'activité maximum sur les 52 dernières semaines)
+%GRAPHPERCENT3%						activité du Motus d'il y a 3 semaines (exprimée en pourcentage de l'activité maximum sur les 52 dernières semaines)
+...												...
+%GRAPHPERCENT50%					activité du Motus d'il y a 50 semaines (exprimée en pourcentage de l'activité maximum sur les 52 dernières semaines)
+%GRAPHPERCENT51%					activité du Motus d'il y a 51 semaines (exprimée en pourcentage de l'activité maximum sur les 52 dernières semaines)
+%GRAPHPERIOD0%						date et heure de début de la semaine en cours
+%GRAPHPERIOD1%						date et heure de début / de fin de la semaine dernière
+%GRAPHPERIOD2%						date et heure de début / de fin de la période d'il y a 2 semaines
+%GRAPHPERIOD3%						date et heure de début / de fin de la période d'il y a 3 semaines
+...												...
+%GRAPHPERIOD50%						date et heure de début / de fin de la période d'il y a 50 semaines
+%GRAPHPERIOD51%						date et heure de début / de fin de la période d'il y a 51 semaines
+%SCORES.ARCHIVE%					archive des scores des semaines passées (prévoir suffisamment de place pour les afficher)
+%FOOTER1%									texte de la première partie du pied-de-page (voir fichier de configuration)
+%FOOTER2%									texte de la seconde partie du pied-de-page (voir fichier de configuration)
+%VERSION%									version du jeu
