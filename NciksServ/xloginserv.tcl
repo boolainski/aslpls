@@ -7,8 +7,8 @@ putlog "Auto X-Login TCL loaded - aslpls"
 
 ### Setup
 # Set nickname and password for login - edit as needed
-set nickname "aslhost"
-set password "Abc@123#"
+set nickname "username"
+set password "password"
 set login "x@channels.undernet.org"  ;# Server address to use
 
 ### Helper function for common actions
@@ -29,7 +29,6 @@ proc do_login {nick host handle chan text} {
     send_command "login"
     putserv "NOTICE $nick :Authenticating to $login..."
 }
-
 
 ### Initial Setup
 set init-server {  
