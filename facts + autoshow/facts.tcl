@@ -30,7 +30,7 @@
 #      Alocate a channel for the bot           #
 ################################################
 
-set channel "#bottest"
+set channel "#iou"
 
 
 #################################################
@@ -56,7 +56,7 @@ set url "http://www.randomfunfacts.com/"
 set page [http::data [http::geturl $url]]
 regexp {<i>(.*?)<\/i>} $page a fact 
 #foreach line $fact { putserv "PRIVMSG $channel :Facts: $fact" } 
-putserv "PRIVMSG $channel :Facts: $fact" 
+putserv "PRIVMSG $channel :Random Facts: $fact" 
 if {[lsearch -glob [utimers] "* fact *"] == -1} { utimer $timer fact } 
 }
 
